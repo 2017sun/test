@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+<script>
+var xhr=new XMLHttpReqest;
+xhr open("get","/cate.json",true);
+xhr.send();
+xhr.onload=function(){
+  json.parse(xhr.responestext)
+}
+</script>
+</body>
+</html>
