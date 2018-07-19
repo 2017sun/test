@@ -7,11 +7,11 @@
 </head>
 <body>
 <script>
-var xhr=new XMLHttpReqest;
-xhr open("get","/cate.json",true);
-xhr.send();
+var xhr=new XMLHttpReqest
+xhr open("get","test/cate.json",true)
+xhr.send()
 xhr.onload=function(){
-  json.parse(xhr.responestext)
+  JSON.parse(xhr.responseText)
 }
 </script>
 </body>
