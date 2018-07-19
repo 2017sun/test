@@ -7,9 +7,9 @@
 </head>
 <body>
 <script>
-var xhr=new XMLHttpReqest
-xhr open("get","test/cate.json",true)
-xhr.send()
+var xhr=new XMLHttpRequest;
+xhr open("get","test/cate.json",true);
+xhr.send();
 xhr.onload=function(){
   JSON.parse(xhr.responseText)
 }
